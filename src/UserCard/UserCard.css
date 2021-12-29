@@ -1,0 +1,19 @@
+.UserCard {
+    flex-flow: row wrap;
+    padding: 4px 12px 4px 12px;
+    margin-bottom: 16px;
+    line-height: 30%;
+    width: 40%;
+    max-width: 40%;
+    background-color: snow;
+    border: 2px solid slategray;
+    border-bottom: 4px solid slategray;
+}
+
+.UserCard:hover {
+    background-color: slategray;
+}
+
+.UserCard:hover > .child {
+    color: snow;
+}
