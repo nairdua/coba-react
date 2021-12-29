@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Employee List</h1>
+      <h1>User List</h1>
       <div className='Container'>
         {usersData.map((user) => {
           return <UserCard user={user}/>
